@@ -6,9 +6,9 @@ public class Main {
 
         // Задача 1
 
-        System.out.println("");
+        System.out.println(" ");
         System.out.println("Задача 1");
-        System.out.println("");
+        System.out.println(" ");
 
         int cashAccumulated2 = 0;
         int cash = 0;
@@ -23,9 +23,9 @@ public class Main {
 
         // Задача 2
 
-        System.out.println("");
+        System.out.println(" ");
         System.out.println("Задача 2");
-        System.out.println("");
+        System.out.println(" ");
 
         for (int s = 1; s <= 10; s++) {
             System.out.print(" " + s + " ");
@@ -44,9 +44,9 @@ public class Main {
 
         // Задача 3
 
-        System.out.println("");
+        System.out.println(" ");
         System.out.println("Задача 3");
-        System.out.println("");
+        System.out.println(" ");
 
         int people = 12000000;
         int baby = 17 * people / 1000;
@@ -59,9 +59,9 @@ public class Main {
         }
 
         // Задача 4
-        System.out.println("");
+        System.out.println(" ");
         System.out.println("Задача 4");
-        System.out.println("");
+        System.out.println(" ");
 
 
         int cashAccumulated1 = 0;
@@ -78,9 +78,9 @@ public class Main {
         System.out.println("Месяцев" + month1 + ", сумма накоплений с процентом по вкладку равна  " + cash1 + " рублей».");
 
         // Задача 5 Очень похожее задание, только в предыдущем не было указано за какой  промежуточный срок выполнять вывод в консоль
-        System.out.println("");
+        System.out.println(" ");
         System.out.println("Задача 5");
-        System.out.println("");
+        System.out.println(" ");
 
         int cashAccumulated3 = 0;
         int cash3 = 15000;
@@ -95,9 +95,9 @@ public class Main {
         }
 
         // Задача 6
-        System.out.println("");
+        System.out.println(" ");
         System.out.println("Задача 6");
-        System.out.println("");
+        System.out.println(" ");
 
         int cash4 = 15000;
         int month12 = 12 * 9;
@@ -112,9 +112,9 @@ public class Main {
         }
 
         // Задача 7
-        System.out.println("");
+        System.out.println(" ");
         System.out.println("Задача 7");
-        System.out.println("");
+        System.out.println(" ");
         int firstFriday = 3;
 
         for (int g = 1; g <= 31; g++) {
@@ -124,9 +124,9 @@ public class Main {
         }
 
         // Задача 8
-        System.out.println("");
+        System.out.println(" ");
         System.out.println("Задача 8");
-        System.out.println("");
+        System.out.println(" ");
 
         int beforeYear = 2023 - 200;
         int afterYear = 2023 + 100;
@@ -136,10 +136,8 @@ public class Main {
                 if (year1>=beforeYear && year1<=afterYear) {
                     System.out.println(year1);
                 }
-
         }
     }
-
 }
 
 
