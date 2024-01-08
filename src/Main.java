@@ -20,17 +20,29 @@ public class Main {
         System.out.println("Задача 2");
 
         for (int i = 0; i <= 2; i++) {
-            System.out.print(first[i] + ", ");
+            if (i == 2) {
+                System.out.print(first[i] + " ");
+            } else {
+                System.out.print(first[i] + ", ");
+            }
         }
         System.out.println(" ");
 
         for (int i = 0; i <= 2; i++) {
-            System.out.print(second[i] + ", ");
+            if (i == 2) {
+                System.out.print(second[i] + " ");
+            } else {
+                System.out.print(second[i] + ", ");
+            }
         }
 
         System.out.println(" ");
         for (int i = 0; i <= 2; i++) {
-            System.out.print(secondTwo[i] + ", ");
+            if (i == 2) {
+                System.out.print(secondTwo[i] + " ");
+            } else {
+                System.out.print(secondTwo[i] + ", ");
+            }
         }
         System.out.println(" ");
 
@@ -39,19 +51,29 @@ public class Main {
         System.out.println("Задача 3");
 
         for (int i = 2; i >= 0; i--) {
-            System.out.print(first[i] + ", ");
-
+            if (i == 0) {
+                System.out.print(first[i] + " ");
+            } else {
+                System.out.print(first[i] + ", ");
+            }
         }
         System.out.println(" ");
 
         for (int i = 2; i >= 0; i--) {
-            System.out.print(second[i] + ", ");
-        }
-
+            if (i == 0) {
+                System.out.print(second[i] + " ");
+            } else {
+                System.out.print(second[i] + ", ");
+            }
+}
         System.out.println(" ");
 
         for (int i = 2; i >= 0; i--) {
-            System.out.print(secondTwo[i] + ", ");
+            if (i == 0) {
+                System.out.print(secondTwo[i] + " ");
+            } else {
+                System.out.print(secondTwo[i] + ", ");
+            }
         }
         System.out.println(" ");
 
