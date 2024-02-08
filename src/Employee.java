@@ -2,7 +2,8 @@ import java.util.Objects;
 
 public class Employee {
 
-    public static int id = 0;
+    private int id;
+    private static int counter = 1;
     private String fioName;
     private int sallary;
     private int department;
@@ -12,6 +13,7 @@ public class Employee {
         this.fioName = fioName;
         this.department = department;
         this.sallary = sallary;
+        this.id = counter++;
     }
 
 
@@ -50,3 +52,8 @@ public class Employee {
         return Objects.hash(fioName, sallary, department);
     }
 }
+
+
+
+
+

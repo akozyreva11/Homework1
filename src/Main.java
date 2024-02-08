@@ -25,6 +25,7 @@ public class Main {
         printMaxSallary();
         printStars();
         printAverageSallary();
+        er();
 
     }
 
@@ -32,8 +33,8 @@ public class Main {
     // список всех сотрудников со всеми данными,
     public static void printAll() {
         for (int i = 0; i < employee.length; i++) {
-            Employee.id++;
-            System.out.println(Employee.id + " " + employee[i]);
+
+            System.out.println( employee[i]);
         }
     }
 
@@ -64,6 +65,7 @@ public class Main {
         System.out.println(min1);
 
     }
+
         // поиск сотрудника с максимальной зарплатой.
 
     public static void printMaxSallary() {
