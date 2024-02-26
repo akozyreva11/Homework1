@@ -1,5 +1,4 @@
-public interface ServiceStation {
-
+public interface ServiceStation  {
     void updateTyre(Car[] car);
 
     void checkEngine(Bicycle[] bicycles);
