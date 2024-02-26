@@ -1,7 +1,5 @@
-public interface ServiceStation  {
-    void updateTyre(Car[] car);
-
-    void checkEngine(Bicycle[] bicycles);
-
-    void checkTrailer(Truck[] truck);
+public class ServiceStation  {
+    public void check (ServiceTable servicetable) {
+        servicetable.check();
+    }
 }
