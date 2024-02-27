@@ -1,8 +1,6 @@
-public class Car extends CarMotor {
+public class Car extends MotorTransport {
     public Car(String modelName, int wheelsCount) {
-        super (modelName, wheelsCount);
+        super(modelName, wheelsCount);
 
     }
-
-
 }

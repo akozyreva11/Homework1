@@ -1,5 +1,5 @@
-public class ServiceStation  {
-    public void check (ServiceTable servicetable) {
-        servicetable.check();
+public class ServiceStation {
+    public void check(Transportable transportable) {
+        transportable.check();
     }
 }

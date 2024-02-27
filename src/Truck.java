@@ -1,7 +1,6 @@
-public class Truck extends CarMotor {
+public class Truck extends MotorTransport {
 
-    public Truck
-            (String modelName, int wheelsCount) {
+    public Truck(String modelName, int wheelsCount) {
         super(modelName, wheelsCount);
     }
 
@@ -12,8 +11,6 @@ public class Truck extends CarMotor {
 
     public void check() {
         super.check();
-        updateTyre();
-        checkEngine();
         checkTrailer();
     }
 }
