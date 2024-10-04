@@ -8,14 +8,12 @@ import java.util.Arrays;
 public class Main {
     public Main() {
     }
-
     public static void main(String[] args) {
         int[] arr = new int[]{1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16};
         int[] even = getEvenDigits(arr);
         System.out.println();
         System.out.println(even);
     }
-
     public static int[] getEvenDigits(int[] values) {
         int s = 0;
         int j = 0;
@@ -30,7 +28,6 @@ public class Main {
             }
         }
 
-        Arrays.sort(even, 4, 8);
         return Arrays.copyOf(even, s);
     }
 }
