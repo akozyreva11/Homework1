@@ -1,8 +1,37 @@
+//
+// Source code recreated from a .class file by IntelliJ IDEA
+// (powered by FernFlower decompiler)
+//
 
-//TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
-// click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
+import java.util.Arrays;
+
 public class Main {
+    public Main() {
+    }
     public static void main(String[] args) {
-        System.out.println("Привет, мир!");
+        int[] arr = new int[]{1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16};
+        int[] even = getEvenDigits(arr);
+
+        System.out.println(even[2]);
+        System.out.println(even[3]);
+        System.out.println(even[4]);
+        System.out.println(even[5]);
+        System.out.println(even[6]);
+    }
+    public static int[] getEvenDigits(int[] values) {
+        int s = 0;
+        int j = 0;
+        int[] even = new int[values.length];
+
+        for(int i = 0; i < values.length; ++i) {
+            if (values[i] % 2 == 0) {
+                even[j] = values[i++];
+                ++j;
+                even[s] = j++;
+                ++s;
+            }
         }
+
+        return Arrays.copyOf(even, s);
+    }
 }
