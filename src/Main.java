@@ -11,8 +11,12 @@ public class Main {
     public static void main(String[] args) {
         int[] arr = new int[]{1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16};
         int[] even = getEvenDigits(arr);
-        System.out.println();
-        System.out.println(even);
+
+        System.out.println(even[2]);
+        System.out.println(even[3]);
+        System.out.println(even[4]);
+        System.out.println(even[5]);
+        System.out.println(even[6]);
     }
     public static int[] getEvenDigits(int[] values) {
         int s = 0;
